@@ -118,9 +118,8 @@
         text-align: center; /* Centre le texte à l'intérieur de la div */
         padding: 10px; /* Ajoute un peu d'espace autour du texte pour le confort visuel */
         box-sizing: border-box; /* Assure que le padding ne fait pas déborder la taille de l'élément */
-        text-align: center;
         margin-bottom: 4rem;
-        color: black;
+        color: blanchedalmond;
         font-size: 150pt;
         font-weight: bold;
     }

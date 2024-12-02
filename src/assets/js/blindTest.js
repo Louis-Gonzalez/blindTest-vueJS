@@ -28,40 +28,40 @@ export class BlindTest {
 
     source() {
         return [
-            {name: "soundTrack1", path: "@/assets/media/music/soundTrack1.mp3", musicTitle: "Alan-Walker&Ava-Max_Alone.mp3"},
-            {name: "soundTrack2", path: "@/assets/media/music/soundTrack2.mp3", musicTitle: "Alan-Walker_Faded.mp3"},
-            {name: "soundTrack3", path: "@/assets/media/music/soundTrack3.mp3", musicTitle: "Ava-Max_Kings&Queens.mp3"},
-            {name: "soundTrack4", path: "@/assets/media/music/soundTrack4.mp3", musicTitle: "Ava-Max_Sweet-but-Psycho.mp3"},
-            {name: "soundTrack5", path: "@/assets/media/music/soundTrack5.mp3", musicTitle: "Aya-Nakamura_Copines.mp3"},
-            {name: "soundtrack6", path: "@/assets/media/music/soundTrack6.mp3", musicTitle: "BLACKPINK_How-You-Like-That.mp3"},
-            {name: "soundTrack7", path: "@/assets/media/music/soundTrack7.mp3", musicTitle: "BLACKPINK_Pink-Venom.mp3"},
-            {name: "soundTrack8", path: "@/assets/media/music/soundTrack8.mp3", musicTitle: "Bob-Sinclar_Rock-This-Party.mp3"},
-            {name: "soundTrack9", path: "@/assets/media/music/soundTrack9.mp3", musicTitle: "Charli-XCX_Break-The-Rules.mp3"},
-            {name: "soundTrack10", path:"@/assets/media/music/soundTrack10.mp3", musicTitle:"DANCE-MONKEY_TONES-AND-I.mp3"},
-            {name: "soundtrack11", path:"@/assets/media/music/soundTrack11.mp3", musicTitle:"David-Guetta&MORTEN_Kill-Me-Slow.mp3"},
-            {name: "soundtrack12", path:"@/assets/media/music/soundTrack12.mp3", musicTitle:"Ed-Sheeran_Shape-of-You.mp3"},
-            {name: "soundtrack13", path:"@/assets/media/music/soundTrack13.mp3", musicTitle:"FAUN_Federkleid.mp3"},
-            {name: "soundtrack14", path:"@/assets/media/music/soundTrack14.mp3", musicTitle:"GIMS&VITAA_PRENDS-MA-MAIN.mp3"},
-            {name: "soundtrack15", path:"@/assets/media/music/soundTrack15.mp3", musicTitle:"GIMS_ORIGAMI.mp3"},
-            {name: "soundtrack16", path:"@/assets/media/music/soundTrack16.mp3", musicTitle:"Hass-Hass_Diljit-X-Sia.mp3"},
-            {name: "soundtrack17", path:"@/assets/media/music/soundTrack17.mp3", musicTitle:"Imagine-Dragons_Believer.mp3"},
-            {name: "soundtrack18", path:"@/assets/media/music/soundTrack18.mp3", musicTitle:"Italobrothers_Stamp-On-The-Ground.mp3"},
-            {name: "soundtrack19", path:"@/assets/media/music/soundTrack19.mp3", musicTitle:"ItaloBrothers_Welcome-To-The-Dancefloor.mp3"},
-            {name: "soundtrack20", path:"@/assets/media/music/soundTrack20.mp3", musicTitle:"KDA-POPSTARS_League of Legends.mp3"},
-            {name: "soundtrack21", path:"@/assets/media/music/soundTrack21.mp3", musicTitle:"Keen-v&Lorelei-B_la-vie-du-bon-cote.mp3"},
-            {name: "soundtrack22", path:"@/assets/media/music/soundTrack22.mp3", musicTitle:"Kungs_Never-Going-Home.mp3"},
-            {name: "soundtrack23", path:"@/assets/media/music/soundTrack23.mp3", musicTitle:"Kygo&Ava-Max_Whatever.mp3"},
-            {name: "soundtrack24", path:"@/assets/media/music/soundTrack24.mp3", musicTitle:"Kylie-Cantrall&Alex-Boniello_Red.mp3"},
-            {name: "soundtrack25", path:"@/assets/media/music/soundTrack25.mp3", musicTitle:"La-Chenille-Synchro.mp3"},
-            {name: "soundtrack26", path:"@/assets/media/music/soundTrack26.mp3", musicTitle:"Marwa-Loud_Bad-Boy.mp3"},
-            {name: "soundtrack27", path:"@/assets/media/music/soundTrack27.mp3", musicTitle:"Marwa-Loud_Fallait-pas.mp3"},
-            {name: "soundtrack28", path:"@/assets/media/music/soundTrack28.mp3", musicTitle:"Miley-Cyrus_Flowers.mp3"},
-            {name: "soundtrack29", path:"@/assets/media/music/soundTrack29.mp3", musicTitle:"Nathan-Evans_Wellerman.mp3"},
-            {name: "soundtrack30", path:"@/assets/media/music/soundTrack30.mp3", musicTitle:"Sia&Sean-Paul_Cheap-Thrills.mp3"},
-            {name: "soundtrack31", path:"@/assets/media/music/soundTrack31.mp3", musicTitle:"Sia_Unstoppable.mp3"},
-            {name: "soundtrack32", path:"@/assets/media/music/soundTrack32.mp3", musicTitle:"The-Weeknd_Blinding-Lights.mp3"},
-            {name: "soundtrack33", path:"@/assets/media/music/soundTrack33.mp3", musicTitle:"W&W&ItaloBrothers&Captain-Curtis_Jump-Jump-Jump.mp3"},
-            {name: "soundtrack34", path:"@/assets/media/music/soundTrack34.mp3", musicTitle:"What-s_My-Name.mp3"},
+            {name: "soundTrack1", path: new URL('@/assets/media/music/soundTrack1.mp3', import.meta.url).href, musicTitle: "Alan-Walker&Ava-Max_Alone.mp3" },
+            {name: "soundTrack2", path: new URL('@/assets/media/music/soundTrack2.mp3', import.meta.url).href, musicTitle: "Alan-Walker_Faded.mp3" },
+            {name: "soundTrack3", path: new URL('@/assets/media/music/soundTrack3.mp3', import.meta.url).href, musicTitle: "Ava-Max_Kings&Queens.mp3" },
+            {name: "soundTrack4", path: new URL('@/assets/media/music/soundTrack4.mp3', import.meta.url).href, musicTitle: "Ava-Max_Sweet-but-Psycho.mp3"},
+            {name: "soundTrack5", path: new URL('@/assets/media/music/soundTrack5.mp3', import.meta.url).href, musicTitle: "Aya-Nakamura_Copines.mp3"},
+            {name: "soundtrack6", path: new URL('@/assets/media/music/soundTrack6.mp3', import.meta.url).href, musicTitle: "BLACKPINK_How-You-Like-That.mp3"},
+            {name: "soundTrack7", path: new URL('@/assets/media/music/soundTrack7.mp3', import.meta.url).href, musicTitle: "BLACKPINK_Pink-Venom.mp3"},
+            {name: "soundTrack8", path: new URL('@/assets/media/music/soundTrack8.mp3', import.meta.url).href, musicTitle: "Bob-Sinclar_Rock-This-Party.mp3"},
+            {name: "soundTrack9", path: new URL('@/assets/media/music/soundTrack9.mp3', import.meta.url).href, musicTitle: "Charli-XCX_Break-The-Rules.mp3"},
+            {name: "soundTrack10", path: new URL('@/assets/media/music/soundTrack10.mp3', import.meta.url).href, musicTitle:"DANCE-MONKEY_TONES-AND-I.mp3"},
+            {name: "soundtrack11", path: new URL('@/assets/media/music/soundTrack11.mp3', import.meta.url).href, musicTitle:"David-Guetta&MORTEN_Kill-Me-Slow.mp3"},
+            {name: "soundtrack12", path: new URL('@/assets/media/music/soundTrack12.mp3', import.meta.url).href, musicTitle:"Ed-Sheeran_Shape-of-You.mp3"},
+            {name: "soundtrack13", path: new URL('@/assets/media/music/soundTrack13.mp3', import.meta.url).href, musicTitle:"FAUN_Federkleid.mp3"},
+            {name: "soundtrack14", path: new URL('@/assets/media/music/soundTrack14.mp3', import.meta.url).href, musicTitle:"GIMS&VITAA_PRENDS-MA-MAIN.mp3"},
+            {name: "soundtrack15", path: new URL('@/assets/media/music/soundTrack15.mp3', import.meta.url).href, musicTitle:"GIMS_ORIGAMI.mp3"},
+            {name: "soundtrack16", path: new URL('@/assets/media/music/soundTrack16.mp3', import.meta.url).href, musicTitle:"Hass-Hass_Diljit-X-Sia.mp3"},
+            {name: "soundtrack17", path: new URL('@/assets/media/music/soundTrack17.mp3', import.meta.url).href, musicTitle:"Imagine-Dragons_Believer.mp3"},
+            {name: "soundtrack18", path: new URL('@/assets/media/music/soundTrack18.mp3', import.meta.url).href, musicTitle:"Italobrothers_Stamp-On-The-Ground.mp3"},
+            {name: "soundtrack19", path: new URL('@/assets/media/music/soundTrack19.mp3', import.meta.url).href, musicTitle:"ItaloBrothers_Welcome-To-The-Dancefloor.mp3"},
+            {name: "soundtrack20", path: new URL('@/assets/media/music/soundTrack20.mp3', import.meta.url).href, musicTitle:"KDA-POPSTARS_League of Legends.mp3"},
+            {name: "soundtrack21", path: new URL('@/assets/media/music/soundTrack21.mp3', import.meta.url).href, musicTitle:"Keen-v&Lorelei-B_la-vie-du-bon-cote.mp3"},
+            {name: "soundtrack22", path: new URL('@/assets/media/music/soundTrack22.mp3', import.meta.url).href, musicTitle:"Kungs_Never-Going-Home.mp3"},
+            {name: "soundtrack23", path: new URL('@/assets/media/music/soundTrack23.mp3', import.meta.url).href, musicTitle:"Kygo&Ava-Max_Whatever.mp3"},
+            {name: "soundtrack24", path: new URL('@/assets/media/music/soundTrack24.mp3', import.meta.url).href, musicTitle:"Kylie-Cantrall&Alex-Boniello_Red.mp3"},
+            {name: "soundtrack25", path: new URL('@/assets/media/music/soundTrack25.mp3', import.meta.url).href, musicTitle:"La-Chenille-Synchro.mp3"},
+            {name: "soundtrack26", path: new URL('@/assets/media/music/soundTrack26.mp3', import.meta.url).href, musicTitle:"Marwa-Loud_Bad-Boy.mp3"},
+            {name: "soundtrack27", path: new URL('@/assets/media/music/soundTrack27.mp3', import.meta.url).href, musicTitle:"Marwa-Loud_Fallait-pas.mp3"},
+            {name: "soundtrack28", path: new URL('@/assets/media/music/soundTrack28.mp3', import.meta.url).href, musicTitle:"Miley-Cyrus_Flowers.mp3"},
+            {name: "soundtrack29", path: new URL('@/assets/media/music/soundTrack29.mp3', import.meta.url).href, musicTitle:"Nathan-Evans_Wellerman.mp3"},
+            {name: "soundtrack30", path: new URL('@/assets/media/music/soundTrack30.mp3', import.meta.url).href, musicTitle:"Sia&Sean-Paul_Cheap-Thrills.mp3"},
+            {name: "soundtrack31", path: new URL('@/assets/media/music/soundTrack31.mp3', import.meta.url).href, musicTitle:"Sia_Unstoppable.mp3"},
+            {name: "soundtrack32", path: new URL('@/assets/media/music/soundTrack32.mp3', import.meta.url).href, musicTitle:"The-Weeknd_Blinding-Lights.mp3"},
+            {name: "soundtrack33", path: new URL('@/assets/media/music/soundTrack33.mp3', import.meta.url).href, musicTitle:"W&W&ItaloBrothers&Captain-Curtis_Jump-Jump-Jump.mp3"},
+            {name: "soundtrack34", path: new URL('@/assets/media/music/soundTrack34.mp3', import.meta.url).href, musicTitle:"What-s_My-Name.mp3"},
         ]
     }
 
@@ -250,7 +250,6 @@ export class BlindTest {
         this.timerElement.style.color = '';
         this.updateProgressBar();
     }
-
     response() {
         // Masquer le compteur et la barre de progression
         this.timerElement.style.display = 'none';
@@ -260,11 +259,14 @@ export class BlindTest {
         let responseElement = document.getElementById("response");
     
         if (this.selectedMusic) {
-            responseElement.innerText = `${this.selectedMusic.musicTitle}`;  // Affiche le titre de la musique
+            // Supprime les 4 derniers caractères du titre
+            const cleanTitle = this.selectedMusic.musicTitle.slice(0, -4);
+            responseElement.innerText = cleanTitle; 
+            console.log("La vraie réponse est : " + cleanTitle); // Affiche le titre nettoyé
         } else {
-            responseElement.innerText = "Le Blind Test est terminé ! Toutes les musiques ont été jouées.";  // Message de fin
+            responseElement.innerText = "Le Blind Test est terminé ! Toutes les musiques ont été jouées."; // Message de fin
         }
-        responseElement.style.display = 'block';  // Afficher la réponse
+        responseElement.style.display = 'block'; // Afficher la réponse
     }
 }
 
