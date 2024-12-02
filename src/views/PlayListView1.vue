@@ -6,18 +6,16 @@
 <template>
     <section class="wrapper">
         <div class="title">
-            <h1>This is a playlist1 !</h1>
-        </div>
+                <h1>This is a playlist1 of Celeste !</h1>
+            </div>
         <div class="content">
-            <PlayListCelesteComponent msgCeleste="Page de la playlist 1 de Céleste" />
             <BlindTestComponent />
-        </div>
-        <div class="img-home">
-
         </div>
     </section>
 </template>
 
-<style>
-    
+<style scoped>
+
 </style>
+
+

@@ -48,21 +48,25 @@
 </script>
 
 <template>
-    <section style ="background-color: ">
-        <div id="timer"></div>
-        <div class="titleOfSound" id="response"></div>
+    <section style ="background-color: " >
         <div>
-            <p class="p-page1">
-                <input type="button" id="playPauseButton" value="Play">
-                <input type="button" id="restart" value="Restart">
-                <input type="button" id="nextButton" value="Next">
-            </p>
+            <div id="timer"></div>
+            <div class="titleOfSound" id="response"></div>
         </div>
-        <div id="progressContainer">
-            <div id="progressBar"></div>
+        <div>
+            <div>
+                <p class="p-page1">
+                    <input type="button" id="playPauseButton" value="Play">
+                    <input type="button" id="restart" value="Restart">
+                    <input type="button" id="nextButton" value="Next">
+                </p>
+            </div>
+            <div id="progressContainer">
+                <div id="progressBar"></div>
+            </div>
+            <audio id="alertSound" src="/src/assets/sound/alert.mp3" preload="auto"></audio>
+            <audio id="soundTrack" src="/src/assets/media/music/soundTrack100.mp3" preload="auto"></audio>
         </div>
-        <audio id="alertSound" src="/src/assets/sound/alert.mp3" preload="auto"></audio>
-        <audio id="soundTrack" src="/src/assets/media/music/soundTrack100.mp3" preload="auto"></audio>
     </section>
 </template>
 
@@ -82,16 +86,9 @@
         transition: width 1s;  /* Transition pour l'animation de la largeur */
     }
 
-    h1 {
-        color: fuchsia;
-        text-align: center;
-        font-size: 100pt
-        ;
-    }
-
     .p-homePage {
         text-align: center;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         color:whitesmoke;
         font-size: xx-large;
         font-weight: bold;
@@ -99,12 +96,12 @@
 
     #timer {
         text-align: center;
-        font-size: 400pt;
+        font-size: 20rem;
     }
 
     .p-page1 {
         text-align: center;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         color:whitesmoke;
         font-size: xx-large;
         font-weight: bold;
@@ -118,9 +115,9 @@
         text-align: center; /* Centre le texte à l'intérieur de la div */
         padding: 10px; /* Ajoute un peu d'espace autour du texte pour le confort visuel */
         box-sizing: border-box; /* Assure que le padding ne fait pas déborder la taille de l'élément */
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         color: blanchedalmond;
-        font-size: 150pt;
+        font-size: 7rem;
         font-weight: bold;
     }
 </style>

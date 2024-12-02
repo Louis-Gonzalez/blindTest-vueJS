@@ -15,7 +15,6 @@
                 <a href="/playlist">
                     <img alt="blindTest K7 musical" class="img-home" src="@/assets/media/img/Blind-Test-Musical.jpg" />
                 </a>
-
             </div>
         </div>
     </section>
