@@ -10,6 +10,8 @@
 --ocean-green: #3c9474;
 --silver-tree: #54bc8c;*/
 
+
+
 :root {
   background-color: black;
   color:blanchedalmond;
@@ -46,4 +48,37 @@
 
 .green{
   color:#43bb83;
+}
+
+.btn-play{
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #43bb83;
+  color: blanchedalmond;
+  border: 2px solid #43bb83;
+}
+
+.btn-restart{
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #cc9319;
+  color: black;
+  border: 2px solid #cc9319;
+}
+
+.btn-next{
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #4363bb;
+  color: blanchedalmond;
+  border: 2px solid #4363bb;
 }

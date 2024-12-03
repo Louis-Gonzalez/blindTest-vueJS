@@ -6,7 +6,7 @@
 <template>
     <section class="wrapper">
         <div class="title">
-                <h1>This is a playlist1 of Celeste !</h1>
+                <h1>This is Celeste's playlist ! </h1>
             </div>
         <div class="content">
             <BlindTestComponent />

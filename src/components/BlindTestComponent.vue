@@ -51,14 +51,18 @@
     <section style ="background-color: " >
         <div>
             <div id="timer"></div>
-            <div class="titleOfSound" id="response"></div>
+            <div class="response-title-img">
+                <div class="img-response" id="responseImg"></div>
+                <div class="titleOfSound" id="response"></div>
+            </div>
+            <!-- <img src="@/assets/media/img/BLACKPINK_Pink-Venom.jpg" width="50%" alt=""> -->
         </div>
         <div>
             <div>
                 <p class="p-page1">
-                    <input type="button" id="playPauseButton" value="Play">
-                    <input type="button" id="restart" value="Restart">
-                    <input type="button" id="nextButton" value="Next">
+                    <input class="btn-play" type="button" id="playPauseButton" value="Play">
+                    <input class="btn-restart" type="button" id="restart" value="Restart">
+                    <input class="btn-next" type="button" id="nextButton" value="Next">
                 </p>
             </div>
             <div id="progressContainer">
@@ -71,6 +75,7 @@
 </template>
 
 <style scoped>
+
     #progressContainer {
         width: 100%;  /* Largeur du conteneur de la barre de progression */
         background-color: #e0e0e0;  /* Couleur de fond du conteneur */
@@ -120,4 +125,19 @@
         font-size: 7rem;
         font-weight: bold;
     }
+
+    .img-response {
+        width: 20rem; /* Limite la largeur de l'image à la taille de son conteneur */
+        height: auto; /* Permet aux images de maintenir leur rapport d'aspect */
+        /* display: block; */
+        /* border-color: red; */
+    }
+
+    .response-title-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 </style>

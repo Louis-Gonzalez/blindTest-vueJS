@@ -34,10 +34,10 @@ defineProps({
   <div class="">
     <h1 class="green">{{ msg }}</h1>
     <p>
-      The aim of the game is to find the piece of music before the time runs out. Extracts last 20 seconds. Good luck to all. 
+      The aim of the game is to find the piece of music before the time runs out. The extracts last 20 seconds. Good luck to all. 
     </p>
     <p>
-      <a href="#" @click="playSound">Click here for hear the timeout sound</a>
+      <a href="#" @click="playSound">Click here to hear the timeout sound</a>
       <audio ref="audioElement" :src="soundFile" preload="auto"></audio>
     </p>
   </div>
