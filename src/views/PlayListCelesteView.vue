@@ -1,6 +1,7 @@
 <script setup>
     import PlayListCelesteComponent from '@/components/PlayListCelesteComponent.vue';
     import BlindTestComponent from '@/components/BlindTestComponent.vue';
+    
 </script>
 
 <template>

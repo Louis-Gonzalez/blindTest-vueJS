@@ -8,7 +8,10 @@
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/playlist">PlayList</RouterLink>
-        <RouterLink to="/playlist1">PlayList1</RouterLink>
+        <RouterLink to="/playlistCeleste">Celeste's playlist</RouterLink>
+        <!-- <router-link to="/palylistOphelia">Ophelia's playlist</router-link>
+        <router-link to="/palylistSabine">Sabine's playlist</router-link>
+        <router-link to="/palylistLouis">Louis's playlist</router-link> -->
       </nav>
     </header>
     <main class="">

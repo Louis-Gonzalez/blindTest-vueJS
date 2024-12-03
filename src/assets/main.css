@@ -26,13 +26,15 @@
 
 .wrapper {
   display: flex; /* Activer Flexbox */
-  flex-direction: column; /* Disposer les éléments verticalement */
+  flex-direction: column; /* Aligner les éléments verticalement */
   justify-content: center; /* Centrer verticalement */
   align-items: center; /* Centrer horizontalement */
   width: 100%;
   height: 100vh; /* Utiliser toute la hauteur de la fenêtre */
   text-align: center; /* Centrer le texte à l'intérieur */
 }
+
+
 
 .content {
   margin-top: 4rem;
